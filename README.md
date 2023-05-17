@@ -15,7 +15,7 @@ This repository contains an implementation of the Raft consensus protocol. Raft 
 
 ## Usage
 
-1. Clone the repository: git clone https://github.com/hengwangy0699/NMS_Final_Porject.git
+1. Clone the repository: git clone [https://github.com/hengwangy0699/NMS_Final_Porject.git](https://github.com/hengwangy0699/NMS_Final_Project.git)
 2. Navigate to the cloned directory: cd NMS_Final_Porject
 3. Modify the `script.sh` file with the desired number of server nodes.
 4. Run the script: ./script.sh

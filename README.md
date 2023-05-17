@@ -7,7 +7,7 @@ This repository contains an implementation of the Raft consensus protocol. Raft 
 
 - **raft.py**: This script contains the implementation of the Raft server, performing tasks such as elections and other Raft-specific operations.
 
-- **simulator.py**: This script initializes the client and servers, with server nodes implemented using multiprocessing to simulate a network. It also gathers data related to consensus time and the number of server failures.
+- **simulator.py**: This script initializes the client and servers, with server nodes implemented using multiprocessing to simulate a distributed system. It also gathers data related to consensus time and the number of server failures.
 
 - **data_visualization.ipynb**: This Jupyter notebook uses the Matplotlib library to visualize data from the simulations.
 

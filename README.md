@@ -20,7 +20,10 @@ This repository contains an implementation of the Raft consensus protocol. Raft 
 3. Modify the `script.sh` file with the desired number of server nodes.
 4. Run the script: ./script.sh
 
-After running the simulation, you can visualize the results using the `data_visualization.ipynb` notebook.
+Before running the data visualization, ensure you create an 'output' folder. Then, modify the line `python3 simulator.py $number` in the `script.sh` file to `python3 simulator.py $number > output/output.$number`. 
+
+After running the script, the results can be visualized using the `data_visualization.ipynb` Jupyter notebook. Please ensure to change the 'path' variable in the notebook to match the path of your 'output' folder.
+
 
 ## Dependencies
 Ensure you have the following installed:
